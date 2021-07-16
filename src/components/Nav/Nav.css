@@ -1,0 +1,22 @@
+div.Toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Toolbar .brand h3 {
+  font: 500 20px var(--font_family);
+  letter-spacing: 1px;
+}
+
+div.Nav__FormControl {
+  width: 200px;
+}
+
+div.Nav__FormControl *,
+.Nav__FormControl .MuiFormLabel-root.Mui-focused {
+  color: white;
+}
+
+.Nav__FormControl .MuiInput-colorSecondary.MuiInput-underline:after {
+  border-block-color: white;
+}

@@ -1,0 +1,10 @@
+.Home {
+  padding: 15px 0 20px 0;
+}
+
+.Home .Boxes {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1160px;
+  margin: auto;
+}

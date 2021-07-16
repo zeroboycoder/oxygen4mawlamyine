@@ -1,0 +1,40 @@
+.Box {
+  display: flex;
+  flex-flow: column wrap;
+  width: 250px;
+  height: auto;
+  margin: 30px 20px;
+  padding: 15px 25px;
+  color: var(--text);
+  background-color: #94cbff18;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px #001830c9;
+  transition: all 0.3s;
+}
+
+.Box * {
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.Box p {
+  margin: 4px 0;
+}
+
+.Box h3 {
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.Box .desc {
+  text-align: justify;
+}
+
+.Box .tel {
+  font-size: 16px;
+}
+
+.Box:hover {
+  margin: 22px 20px 38px 20px;
+}
